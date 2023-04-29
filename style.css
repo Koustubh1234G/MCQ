@@ -1,3 +1,59 @@
+/* styles for screens smaller than 768px (e.g. smartphones) */
+
+@media (max-width: 767px) {
+    /* adjust font size */
+    body {
+        font-size: 16px;
+    }
+    /* adjust padding/margins */
+    .container {
+        padding: 10px;
+    }
+    /* adjust image size */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* styles for screens between 768px and 1024px (e.g. tablets) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* adjust font size */
+    body {
+        font-size: 18px;
+    }
+    /* adjust padding/margins */
+    .container {
+        padding: 20px;
+    }
+    /* adjust image size */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* styles for screens larger than 1024px (e.g. desktops) */
+
+@media (min-width: 1025px) {
+    /* adjust font size */
+    body {
+        font-size: 20px;
+    }
+    /* adjust padding/margins */
+    .container {
+        padding: 30px;
+    }
+    /* adjust image size */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 body {
     background-color: #111;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

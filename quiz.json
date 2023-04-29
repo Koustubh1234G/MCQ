@@ -1,51 +1,21 @@
- [{
-         "question": "What is the primary cause of global warming?",
-         "answers": [
-             "A. Deforestation",
-             "B. Greenhouse gases",
-             "C. Overpopulation",
-             "D. Volcanic activity"
-         ],
-         "correctAnswer": "B"
-     },
-     {
-         "question": "Which of the following is a renewable energy source?",
-         "answers": [
-             "A. Coal",
-             "B. Natural gas",
-             "C. Solar",
-             "D. Oil"
-         ],
-         "correctAnswer": "C"
-     },
-     {
-         "question": "What is the main cause of soil erosion?",
-         "answers": [
-             "A. Overfarming",
-             "B. Urbanization",
-             "C. Deforestation",
-             "D. Mining"
-         ],
-         "correctAnswer": "C"
-     },
-     {
-         "question": "Which of the following is not a type of pollution?",
-         "answers": [
-             "A. Air pollution",
-             "B. Water pollution",
-             "C. Noise pollution",
-             "D. Soil enrichment"
-         ],
-         "correctAnswer": "D"
-     },
-     {
-         "question": "What is the largest source of ocean pollution?",
-         "answers": [
-             "A. Oil spills",
-             "B. Chemical waste",
-             "C. Plastic waste",
-             "D. Sewage"
-         ],
-         "correctAnswer": "C"
-     }
- ]
+[{
+    "question": "What is the capital of Australia?",
+    "answers": { "A": "Sydney", "B": "Melbourne", "C": "Canberra", "D": "Brisbane" },
+    "correctAnswer": "C"
+}, {
+    "question": "What is the largest planet in our solar system?",
+    "answers": { "A": "Jupiter", "B": "Saturn", "C": "Neptune", "D": "Mars" },
+    "correctAnswer": "A"
+}, {
+    "question": "What is the highest mountain in the world?",
+    "answers": { "A": "Mount Kilimanjaro", "B": "Mount Everest", "C": "Mount Fuji", "D": "Mount McKinley" },
+    "correctAnswer": "B"
+}, {
+    "question": "What is the capital of Brazil?",
+    "answers": { "A": "Rio de Janeiro", "B": "Brasília", "C": "São Paulo", "D": "Belo Horizonte" },
+    "correctAnswer": "B"
+}, {
+    "question": "What is the chemical symbol for gold?",
+    "answers": { "A": "Ag", "B": "Au", "C": "Cu", "D": "Fe" },
+    "correctAnswer": "B"
+}]
