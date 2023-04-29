@@ -47,7 +47,7 @@ const submitQuiz = () => {
     });
 
     document.getElementById('result').innerHTML = `${numCorrect} out of ${Math.min(quiz.length, 10)} correct <br><br>
-    <h4>Best of Luck</h3><br><br><h6>By Koustubh Dave</h6><br><br><br><br><p>I you want to promote yourself here, First follow me on insta @kouatubh12345g<br>Thank You</p>`;
+    <h4>Best of Luck</h3><br><br><h6>By Koustubh Dave</h6><br><br><br><br><p>I you want to promote yourself here, First follow me on insta <a href="https://www.instagram.com/koustubh12345g/">@kouatubh12345g</a><br>Thank You</p>`;
     document.getElementById('result').style.display = 'block';
     document.getElementById('quiz').style.display = 'none';
     document.getElementById('submit').style.display = 'none';
