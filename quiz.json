@@ -1,0 +1,132 @@
+{
+    "questions": [{
+            "question": "Which of the following is a renewable source of energy?",
+            "choises": [
+                "Coal",
+                "Petroleum",
+                "Solar",
+                "Natural gas"
+            ],
+            "answer": "Solar"
+        },
+        {
+            "question": "Which gas is responsible for causing global warming?",
+            "choises": [
+                "Carbon monoxide",
+                "Methane",
+                "Oxygen",
+                "Nitrogen"
+            ],
+            "answer": "Methane"
+        },
+        {
+            "question": "What is the full form of CFCs?",
+            "choises": [
+                "Chlorofluorocarbons",
+                "Carbon Fluoride Compounds",
+                "Chloroform and Carbon Compounds",
+                "Cyanide Fluoride Compounds"
+            ],
+            "answer": "Chlorofluorocarbons"
+        },
+        {
+            "question": "Which of the following is a non-biodegradable substance?",
+            "choises": [
+                "Plastic",
+                "Paper",
+                "Wood",
+                "Cotton"
+            ],
+            "answer": "Plastic"
+        },
+        {
+            "question": "Which is the largest ecosystem in the world?",
+            "choises": [
+                "Forest",
+                "Grassland",
+                "Desert",
+                "Marine ecosystem"
+            ],
+            "answer": "Marine ecosystem"
+        },
+        {
+            "question": "Which of the following is not a greenhouse gas?",
+            "choises": [
+                "Carbon dioxide",
+                "Water vapor",
+                "Methane",
+                "Oxygen"
+            ],
+            "answer": "Oxygen"
+        },
+        {
+            "question": "Which of the following is not a type of pollution?",
+            "choises": [
+                "Air pollution",
+                "Water pollution",
+                "Sound pollution",
+                "Food pollution"
+            ],
+            "answer": "Food pollution"
+        },
+        {
+            "question": "Which of the following is a method of organic farming?",
+            "choises": [
+                "Using chemical fertilizers",
+                "Using pesticides",
+                "Crop rotation",
+                "Monoculture"
+            ],
+            "answer": "Crop rotation"
+        },
+        {
+            "question": "Which of the following is an endangered species?",
+            "choises": [
+                "Tiger",
+                "Cow",
+                "Dog",
+                "Pig"
+            ],
+            "answer": "Tiger"
+        },
+        {
+            "question": "Which is the main source of water pollution?",
+            "choises": [
+                "Industrial wastes",
+                "Agricultural runoff",
+                "Sewage disposal",
+                "All of the above"
+            ],
+            "answer": "All of the above"
+        },
+        {
+            "question": "Which of the following is a method of conserving biodiversity?",
+            "choises": [
+                "Habitat destruction",
+                "Species introduction",
+                "Reforestation",
+                "Overfishing"
+            ],
+            "answer": "Reforestation"
+        },
+        {
+            "question": "Which of the following is a greenhouse gas?",
+            "choises": [
+                "Carbon dioxide",
+                "Oxygen",
+                "Nitrogen",
+                "Hydrogen"
+            ],
+            "answer": "Carbon dioxide"
+        },
+        {
+            "question": "Which of the following is not a renewable source of energy?",
+            "choises": [
+                "Solar",
+                "Wind",
+                "Coal",
+                "Hydroelectric"
+            ]
+        }
+    ]
+}
