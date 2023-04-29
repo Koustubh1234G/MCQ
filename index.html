@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>MCQ Quiz</title>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>MCQ Quiz</h1>
-    <form>
-        <ul id="question-list"></ul>
-        <button type="button" id="submit-btn">Submit</button>
-    </form>
-    <p id="result"></p>
-    <button type="button" id="retry-btn" style="display: none;">Retry</button>
+    <h1>Quiz App</h1>
+    <div id="quiz"></div>
+    <div id="result"></div>
+    <div id="buttons">
+        <button id="submit">Submit</button>
+        <button id="retry">Retry</button>
+        <button id="random">Randomize Questions</button>
+    </div>
     <script src="script.js"></script>
 </body>
 

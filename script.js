@@ -1,41 +1,87 @@
+let currentQuestion = 0;
+let correctAnswers = 0;
+let quiz = [];
+
+const renderQuiz = () => {
+    const quizContainer = document.getElementById('quiz');
+    let output = '';
+
+    quiz.forEach((question, index) => {
+        if (index < 10) { // limit to 10 random questions
+            const answers = Object.entries(question.answers)
+                .map(([letter, answer]) => `
+            <label>
+              <input type="radio" name="question${index}" value="${letter}">
+              ${letter}: ${answer}
+            </label>
+          `)
+                .join('');
+
+            output += `
+          <div class="question">${question.question}</div>
+          <div class="answers">${answers}</div>
+        `;
+        }
+    });
+
+    quizContainer.innerHTML = output;
+};
+
+const submitQuiz = () => {
+    const quizContainer = document.getElementById('quiz');
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+    let userAnswer;
+    let numCorrect = 0;
+
+    quiz.forEach((question, index) => {
+        if (index < 10) { // limit to 10 random questions
+            userAnswer = (answerContainers[index].querySelector(`input[name="question${index}"]:checked`) || {}).value;
+
+            if (userAnswer === question.correctAnswer) {
+                numCorrect++;
+                answerContainers[index].style.color = 'lightgreen';
+            } else {
+                answerContainers[index].style.color = 'red';
+            }
+        }
+    });
+
+    document.getElementById('result').innerHTML = `${numCorrect} out of ${Math.min(quiz.length, 10)} correct`;
+    document.getElementById('result').style.display = 'block';
+    document.getElementById('quiz').style.display = 'none';
+    document.getElementById('submit').style.display = 'none';
+    document.getElementById('retry').style.display = 'inline-block';
+    document.getElementById('random').style.display = 'inline-block';
+};
+
+const retryQuiz = () => {
+    currentQuestion = 0;
+    correctAnswers = 0;
+    document.getElementById('result').style.display = 'none';
+    document.getElementById('quiz').style.display = 'block';
+    document.getElementById('submit').style.display = 'inline-block';
+    document.getElementById('retry').style.display = 'none';
+    document.getElementById('random').style.display = 'none';
+    renderQuiz();
+};
+
+const getRandomQuiz = () => {
+    quiz.sort(() => Math.random() - 0.5);
+    renderQuiz();
+};
+
 fetch('quiz.json')
     .then(response => response.json())
-    .then(questions => {
-            questions.sort(() => 0.5 - Math.random());
-            const quiz = questions.slice(0, 5);
-
-            const questionList = document.getElementById('question-list');
-            quiz.forEach((question, index) => {
-                        const li = document.createElement('li');
-                        li.innerHTML = `
-        <h3>${index + 1}. ${question.text}</h3>
-        ${question.options.map(option => `
-          <input type="radio" name="q${index}" value="${option}">
-          <label>${option}</label><br>
-        `).join('')}
-      `;
-      questionList.appendChild(li);
+    .then(data => {
+        quiz = data;
+        renderQuiz();
+        console.log(quiz); // check if quiz data is loaded correctly
+    })
+    .catch(error => {
+        console.error('Error loading quiz data:', error);
+        document.getElementById('quiz').innerHTML = 'Error loading quiz data. Please try again later.';
     });
 
-    const submitBtn = document.getElementById('submit-btn');
-    const resultText = document.getElementById('result');
-    const retryBtn = document.getElementById('retry-btn');
-    submitBtn.addEventListener('click', () => {
-      let numCorrect = 0;
-      quiz.forEach((question, index) => {
-        const selectedOption = document.querySelector(`input[name="q${index}"]:checked`);
-        if (selectedOption && selectedOption.value === question.answer) {
-          numCorrect++;
-        }
-      });
-
-      const numIncorrect = quiz.length - numCorrect;
-      resultText.textContent = `You got ${numCorrect} out of ${quiz.length} questions correct.`;
-      retryBtn.style.display = 'block';
-    });
-
-    retryBtn.addEventListener('click', () => {
-      window.location.reload();
-    });
-  })
-  .catch(error => console.error(error));
+document.getElementById('submit').addEventListener('click', submitQuiz);
+document.getElementById('retry').addEventListener('click', retryQuiz);
+document.getElementById('random').addEventListener('click', getRandomQuiz);

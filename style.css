@@ -1,0 +1,100 @@
+body {
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eee;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+}
+
+.question {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #222;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="radio"]:checked {
+    background-color: #eee;
+    border-color: #eee;
+}
+
+#submit,
+#retry,
+#random {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#submit:hover,
+#retry:hover,
+#random:hover {
+    background-color: #4d4dff;
+}
+
+#result {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #222;
+    text-align: center;
+}
+
+#result p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
