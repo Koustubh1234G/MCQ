@@ -1,0 +1,254 @@
+[
+    {
+        "question": "Which of the following is considered as the 'brain' of the computer?",
+        "answers": { "A": "Monitor", "B": "Keyboard", "C": "Central Processing Unit (CPU)", "D": "Printer" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does CPU stand for?",
+        "answers": { "A": "Computer Power Unit", "B": "Central Processing Unit", "C": "Central Printer Unit", "D": "Computer Processing Unit" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which software is used to create documents, such as letters, reports, and resumes?",
+        "answers": { "A": "Spreadsheet Software", "B": "Presentation Software", "C": "Word Processing Software", "D": "Database Software" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does HTML stand for?",
+        "answers": { "A": "Hyper Text Markup Language", "B": "High-Level Text Manipulation Language", "C": "Hyperlink and Text Markup Language", "D": "Hyper Terminal Markup Language" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following is a popular web browser?",
+        "answers": { "A": "Windows Explorer", "B": "Microsoft Word", "C": "Google Chrome", "D": "Adobe Photoshop" },
+        "correctAnswer": "C"
+    },
+
+    {
+        "question": "Which component is used to store data permanently in a computer?",
+        "answers": { "A": "RAM", "B": "CPU", "C": "Hard Drive", "D": "Motherboard" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does the acronym 'URL' stand for?",
+        "answers": { "A": "Universal Resource Locator", "B": "Uniform Resource Locator", "C": "Unique Resource Locator", "D": "User Reference Locator" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which of the following is not an operating system?",
+        "answers": { "A": "Windows", "B": "Linux", "C": "Google", "D": "macOS" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What is the primary function of a firewall?",
+        "answers": { "A": "To speed up the computer", "B": "To store data", "C": "To protect against unauthorized access", "D": "To create graphics" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which programming language is often used for web development?",
+        "answers": { "A": "Java", "B": "Python", "C": "JavaScript", "D": "C++" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What is the extension of a Microsoft Word document?",
+        "answers": { "A": ".txt", "B": ".docx", "C": ".pdf", "D": ".xlsx" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which key is used to delete the character to the right of the cursor?",
+        "answers": { "A": "Tab", "B": "Enter", "C": "Delete", "D": "Backspace" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What is the function of an internet modem?",
+        "answers": { "A": "To display images on the screen", "B": "To connect a computer to the internet", "C": "To print documents", "D": "To play audio files" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which of the following is a cloud storage service?",
+        "answers": { "A": "Dropbox", "B": "Microsoft Excel", "C": "Adobe Photoshop", "D": "Notepad" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "What does CPU speed measure?",
+        "answers": { "A": "Storage capacity", "B": "Memory size", "C": "Processing speed", "D": "Network bandwidth" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "The computer as a machine and all other equipments associated with it are termed as:",
+        "answers": { "A": "Hardware", "B": "Software", "C": "CPU", "D": "Firmware" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "In hard disk, track 0 is:",
+        "answers": { "A": "Outermost", "B": "Innermost", "C": "depends on machine", "D": "depends on formatting mode" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The first commercially available computer was:",
+        "answers": { "A": "ENIAC", "B": "UNIVAC-I", "C": "ABACUS", "D": "MARK-I" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "A smart terminal is one which:",
+        "answers": { "A": "looks very attractive", "B": "has inbuilt processing capability", "C": "must convert input on CRT screen", "D": "none of the above" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "A computer cannot boot if it does not have:",
+        "answers": { "A": "Compiler", "B": "Loader", "C": "Assembler", "D": "Operating System" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "EBCDIC code can code up to how many different characters?",
+        "answers": { "A": "8", "B": "256", "C": "32", "D": "1024" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "High Level language is:",
+        "answers": { "A": "Machine independent", "B": "Easy to understand", "C": "Must be converted to Machine Language before execution", "D": "All of the above" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Modem is used to:",
+        "answers": { "A": "convert analog signal to digital signal", "B": "convert digital signal to analog signal", "C": "convert both analog signal to digital signal and digital signal to analog signal", "D": "none of the above" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which of the following is not a desktop accessory?",
+        "answers": { "A": "Terminal", "B": "Calendar", "C": "Calculator", "D": "None of the above" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following can be entered as a number in a cell in worksheet?",
+        "answers": { "A": "1,300.00", "B": "1.1e+2", "C": "(5000.00)", "D": "All of the above" },
+        "correctAnswer": "D"
+    },
+
+    {
+        "question": "Which device is used to display visual output from a computer?",
+        "answers": { "A": "Keyboard", "B": "Monitor", "C": "Mouse", "D": "Printer" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the primary function of a computer's RAM?",
+        "answers": { "A": "Long-term storage", "B": "Temporary storage", "C": "Processing data", "D": "Network communication" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which programming language is used for web development and scripting?",
+        "answers": { "A": "Python", "B": "JavaScript", "C": "C++", "D": "Java" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What does the acronym 'LAN' stand for?",
+        "answers": { "A": "Local Area Network", "B": "Large Access Network", "C": "Laptop Area Network", "D": "Link Access Node" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following is an example of an input device?",
+        "answers": { "A": "Monitor", "B": "Printer", "C": "Scanner", "D": "Speaker" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What is the function of a web browser?",
+        "answers": { "A": "To create documents", "B": "To edit images", "C": "To browse the internet", "D": "To manage files" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which file format is used for digital images?",
+        "answers": { "A": ".txt", "B": ".jpg", "C": ".mp3", "D": ".docx" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the purpose of an operating system?",
+        "answers": { "A": "To create documents", "B": "To manage hardware resources", "C": "To design graphics", "D": "To play music" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which of the following is a cloud computing service?",
+        "answers": { "A": "Dropbox", "B": "Microsoft Word", "C": "Adobe Photoshop", "D": "Notepad" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "What does the acronym 'URL' stand for?",
+        "answers": { "A": "Uniform Resource Locator", "B": "Universal Resource Link", "C": "User-Readable Language", "D": "Unified Routing Logic" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "What does FTP stand for?",
+        "answers": { "A": "File Transfer Protocol", "B": "File Transfer Program", "C": "File Transmission Protocol", "D": "File Text Processing" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following is NOT a type of computer virus?",
+        "answers": { "A": "Trojan Horse", "B": "Worm", "C": "Spyware", "D": "RAM" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Which programming language is commonly used for creating mobile applications?",
+        "answers": { "A": "Java", "B": "C#", "C": "Swift", "D": "All of the above" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What is the purpose of a compiler?",
+        "answers": { "A": "To execute programs", "B": "To convert high-level programming code into machine language", "C": "To manage memory resources", "D": "To debug code" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which of the following is NOT a type of computer network?",
+        "answers": { "A": "LAN", "B": "WAN", "C": "MAN", "D": "RAM" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What is the primary function of a GPU?",
+        "answers": { "A": "To process graphical data", "B": "To manage memory allocation", "C": "To execute program instructions", "D": "To store permanent data" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following is NOT a programming paradigm?",
+        "answers": { "A": "Object-Oriented Programming", "B": "Functional Programming", "C": "Sequential Programming", "D": "Procedural Programming" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does SQL stand for?",
+        "answers": { "A": "Sequential Query Language", "B": "Structured Query Language", "C": "Simple Query Language", "D": "Standard Query Language" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which company developed the Python programming language?",
+        "answers": { "A": "Microsoft", "B": "Google", "C": "Apple", "D": "Python Software Foundation" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What is the purpose of a DNS server?",
+        "answers": { "A": "To store website content", "B": "To translate domain names into IP addresses", "C": "To encrypt data transmission", "D": "To manage user authentication" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the function of an optical mouse?",
+        "answers": { "A": "To scan printed documents", "B": "To capture images", "C": "To track movement on a surface", "D": "To project laser beams" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which data structure uses LIFO (Last In, First Out) principle?",
+        "answers": { "A": "Queue", "B": "Stack", "C": "Tree", "D": "Heap" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the purpose of a compiler?",
+        "answers": { "A": "To execute program instructions", "B": "To convert source code into machine code", "C": "To manage memory allocation", "D": "To perform mathematical calculations" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which protocol is used for secure communication over the internet?",
+        "answers": { "A": "FTP", "B": "HTTP", "C": "SSH", "D": "SMTP" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does API stand for?",
+        "answers": { "A": "Application Programming Interface", "B": "Advanced Protocol Integration", "C": "Automated Program Interface", "D": "Adaptive Processing Interface" },
+        "correctAnswer": "A"
+    }
+]

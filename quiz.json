@@ -1,51 +1,247 @@
- [{
-         "question": "What is the primary cause of global warming?",
-         "answers": [
-             "A. Deforestation",
-             "B. Greenhouse gases",
-             "C. Overpopulation",
-             "D. Volcanic activity"
-         ],
-         "correctAnswer": "B"
-     },
-     {
-         "question": "Which of the following is a renewable energy source?",
-         "answers": [
-             "A. Coal",
-             "B. Natural gas",
-             "C. Solar",
-             "D. Oil"
-         ],
-         "correctAnswer": "C"
-     },
-     {
-         "question": "What is the main cause of soil erosion?",
-         "answers": [
-             "A. Overfarming",
-             "B. Urbanization",
-             "C. Deforestation",
-             "D. Mining"
-         ],
-         "correctAnswer": "C"
-     },
-     {
-         "question": "Which of the following is not a type of pollution?",
-         "answers": [
-             "A. Air pollution",
-             "B. Water pollution",
-             "C. Noise pollution",
-             "D. Soil enrichment"
-         ],
-         "correctAnswer": "D"
-     },
-     {
-         "question": "What is the largest source of ocean pollution?",
-         "answers": [
-             "A. Oil spills",
-             "B. Chemical waste",
-             "C. Plastic waste",
-             "D. Sewage"
-         ],
-         "correctAnswer": "C"
-     }
- ]
+[{
+        "question": "Ecology deals with the study of",
+        "answers": { "A": "Living Beings", "B": "Living and non-living components", "C": "Reciprocal relationship between living and non-living components", "D": "Environment" },
+        "correctAnswer": "C"
+    }, {
+        "question": "Energy flow in ecosystem is",
+        "answers": { "A": "Unidirectional", "B": "Bidirectional", "C": "Multidirectional", "D": "None of the above" },
+        "correctAnswer": "A"
+    }, {
+        "question": "The source of energy in an ecosystem is",
+        "answers": { "A": "ATP", "B": "Sunlight", "C": "DNA", "D": "RNA" },
+        "correctAnswer": "C"
+    }, {
+        "question": "Definition of ecosystem is",
+        "answers": { "A": "The community of organisms togather with the environment in which they live", "B": "The abiotic component of a habitat", "C": "The part of the earth and its atmosphere which inhibits living organisms", "D": "A community of organisms interacting with one another" },
+        "correctAnswer": "A"
+    }, {
+        "question": "An association between two individuals or populations where both are benefitted and where neighter can survive without the other is",
+        "answers": { "A": "Competition", "B": "Communalism", "C": "Mutualism", "D": "Protocoperation" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "The final stable community in an ecological succession is called the",
+        "answers": { "A": "Final Community", "B": "Ultimate Community", "C": "Seral Community", "D": "Climax Community" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "A group of a individual of a plant or animal species, inhabiting a given area is called",
+        "answers": { "A": "Biome", "B": "Population", "C": "Ecosystem", "D": "Community" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Conservation within the natural habitat is",
+        "answers": { "A": "Insitu conservation", "B": "Exitu conservation", "C": "Invivo conservation", "D": "Exvivo conservation" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "All are insitu conservation effort except",
+        "answers": { "A": "National Parks", "B": "Sanctuaries", "C": "Biosphere Reserves", "D": "Zoo" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Conservation outside the natural habitat is",
+        "answers": { "A": "Insitu conservation", "B": "Exitu conservation", "C": "Invivo conservation", "D": "Exvivo conservation" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the animal symbol of W.W.F.(World Wildlife Fund)",
+        "answers": { "A": "Red Panda", "B": "Giant Panda", "C": "Tiger", "D": "Kangaroo" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "THe cutting down of tree is termed as",
+        "answers": { "A": "Forestation", "B": "Plantation", "C": "Deforestation", "D": "Biodiversity" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "The natural place of an organism or community is known as",
+        "answers": { "A": "Niche", "B": "Biome", "C": "Habitat", "D": "Habit" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "The organisms that live on organic materials and absorb organic molecules by digesting enzymes are called",
+        "answers": { "A": "Decomposers", "B": "Producers", "C": "Carnivores", "D": "Omnivores" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Plants are also regarded as",
+        "answers": { "A": "Flora", "B": "Fauna", "C": "Flower", "D": "Botany" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Tropic levels are formed by",
+        "answers": { "A": "Only plants", "B": "Only animals", "C": "Only carnivores", "D": "Organisms linked in food chain" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "The variety within species and among species is classified as",
+        "answers": { "A": "Diversity", "B": "Deduction", "C": "Reduction", "D": "Informatics" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "The sequence of eating and being eaten in an ecosystem is called ___",
+        "answers": { "A": "Food Chain", "B": "Hungry Chain", "C": "Food Cycle", "D": "Fate" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "The interlocking pattern of various food chain is called",
+        "answers": { "A": "Food Chain", "B": "Hungry Chain", "C": "Food Cycle", "D": "Fate" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Deforestation may reduce the chances of",
+        "answers": { "A": "Frequent Land slides", "B": "Erosion of Soil", "C": "Rainfall", "D": "Frequent Cyclones" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Soil conservation is the process where",
+        "answers": { "A": "Soil is aerated", "B": "Soil is protected against loss", "C": "Sterile soil is converted into fertile soil", "D": "Soil erosion is allowed" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The process of planting trees and sowind seeds in a barren land devoid of any trees to create a forest is called",
+        "answers": { "A": "Deforestation", "B": "Aforestation", "C": "Forestation", "D": "Plantation" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Indiscriminately cutting down the trees is called",
+        "answers": { "A": "Deforestation", "B": "Aforestation", "C": "Forestation", "D": "Soil Erosion" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Soil erosion can be prevented by",
+        "answers": { "A": "Afforestation", "B": "Overgrazing", "C": "Increasing birds population", "D": "Removal of vegetation" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Energy produced by hydel-power plant is",
+        "answers": { "A": "Non-polluting and non-reneuable", "B": "Polluting and non-reneuable", "C": "Non-polluting and reneuable", "D": "Polluting and reneuable" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "The removal of top layer of soil is called",
+        "answers": { "A": "Land slide", "B": "Soil erosion", "C": "Drought", "D": "Earthquake" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which one of the following is an example of non-reneuable resource?",
+        "answers": { "A": "Water", "B": "Vegetation", "C": "Wind", "D": "Coal and minerals" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What are the three R's to save the environment?",
+        "answers": { "A": "Reduce,recycle,reuse", "B": "Replenish,reduce,reuse", "C": "Reconstruct,recycle,reduce", "D": "Reduce,recycle,remove" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "What is the purpose of rainwater harvesting",
+        "answers": { "A": "To hold rainwater on the surface of earth", "B": "TO recharge Ground water", "C": "To use water for the irrigation of the crops", "D": "TO rear fish" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The unfavourable of the alternation of the anvironment due to human activities is termed as",
+        "answers": { "A": "Ecological Degradation", "B": "Ecological DIsturbance", "C": "Pollution", "D": "Catastrophe" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Noise is measured in",
+        "answers": { "A": "Joule", "B": "Decibel", "C": "Hertz", "D": "Sound" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The ______ is an important requirement of aquatic life",
+        "answers": { "A": "Dissolved nitrogen", "B": "Dissolved chlorine", "C": "Dissolved oxygen", "D": "Dissolved methane" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What is the full form of BOD",
+        "answers": { "A": "Biological Oxygen Demand", "B": "Biochemical Oxygen Demand", "C": "Biometric Oxygen Deepwater", "D": "Biological Oxygen Deepwater" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Fish die in water polluted by sevage due to",
+        "answers": { "A": "Pathogen", "B": "Reduce in oxygen", "C": "Clogging of gills", "D": "Foul smell" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "The ultraviolet radiatins in the atmosphere are absorbed by",
+        "answers": { "A": "Sulphor dioxide", "B": "Oxygen", "C": "Ozone", "D": "Argon" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Most abundant water pollutant is",
+        "answers": { "A": "Industrial waste", "B": "Detergent", "C": "Pesticide", "D": "Ammonia" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Ozone depletion in the atmosphere will cause",
+        "answers": { "A": "Increase incident in skin cancer", "B": "Forest fire", "C": "Global warming", "D": "Soil erosion" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Acid rain contains",
+        "answers": { "A": "Sulphuric acid", "B": "Nitric Acid", "C": "Both", "D": "Sulphuric acid, Nitric acid and HCL" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "The true statement about' green house effect' is that it is",
+        "answers": { "A": "Caused by combination of many gases", "B": "Caused By Carbon dioxide", "C": "Caused only by Co2, CFC, CH4 , NO2 gases", "D": "None of the above" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Algal bloom results in",
+        "answers": { "A": "Global warming", "B": "Salination", "C": "Eutrofication", "D": "Biomagnification" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Chipco movement in a public agitation that occured in",
+        "answers": { "A": "Mansbal area in Kashmir", "B": "Silent vally in Kerela", "C": "Sundarban area in Bengal", "D": "Tehri Garhwal area in UP" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Drinking of floride containing water results",
+        "answers": { "A": "Fluorosis", "B": "Chlorosis", "C": "Minemata", "D": "Methanemoglobinema" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "A high Biological Oxygen Demand (BOD) indicates that",
+        "answers": { "A": "Water is pure", "B": "Absence of microbial action", "C": "Low level of microbial pollution", "D": "High level of microbial pollution" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Manmade sources of radiation pollution are",
+        "answers": { "A": "Mining", "B": "Explosion of nuclear weapons", "C": "Nuclar fuels and preparation of radioactive isotropes", "D": "All of These" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Habitat loss of fragmantation, over exploitation, alien species invasion and coextinction are causes for",
+        "answers": { "A": "Population Exploitation", "B": "Polluton", "C": "Biodiversity loss", "D": "Migration" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Soaps and Detergents are source of organic pollutants like",
+        "answers": { "A": "Glycerol", "B": "Polyphosphates", "C": "Sulphonated Hydrocarbons", "D": "All of These" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "The effect of radioactive pollutants depends on",
+        "answers": { "A": "Rate of Diffusion", "B": "Energy relesing capacity", "C": "Rate of deposition of contaminant", "D": "All of these" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "The carrying capacity of a population is determined by its",
+        "answers": { "A": "Population growth rate", "B": "Natality", "C": "Morality", "D": "Limiting resources" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "In a population, unrestricted reproductive capacity is called",
+        "answers": { "A": "Carring Capacty", "B": "Biotic Potential", "C": "Birth Rate", "D": "Fertility rate" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "AIDs dau is celebrated on",
+        "answers": { "A": "30 Jan", "B": "1 Dec", "C": "4 Feb", "D": "5 Sep" },
+        "correctAnswer": "B"
+    }
+]
