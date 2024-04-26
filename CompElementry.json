@@ -175,5 +175,80 @@
         "question": "What does the acronym 'URL' stand for?",
         "answers": { "A": "Uniform Resource Locator", "B": "Universal Resource Link", "C": "User-Readable Language", "D": "Unified Routing Logic" },
         "correctAnswer": "A"
-    }    
+    },
+    {
+        "question": "What does FTP stand for?",
+        "answers": { "A": "File Transfer Protocol", "B": "File Transfer Program", "C": "File Transmission Protocol", "D": "File Text Processing" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following is NOT a type of computer virus?",
+        "answers": { "A": "Trojan Horse", "B": "Worm", "C": "Spyware", "D": "RAM" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "Which programming language is commonly used for creating mobile applications?",
+        "answers": { "A": "Java", "B": "C#", "C": "Swift", "D": "All of the above" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What is the purpose of a compiler?",
+        "answers": { "A": "To execute programs", "B": "To convert high-level programming code into machine language", "C": "To manage memory resources", "D": "To debug code" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which of the following is NOT a type of computer network?",
+        "answers": { "A": "LAN", "B": "WAN", "C": "MAN", "D": "RAM" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What is the primary function of a GPU?",
+        "answers": { "A": "To process graphical data", "B": "To manage memory allocation", "C": "To execute program instructions", "D": "To store permanent data" },
+        "correctAnswer": "A"
+    },
+    {
+        "question": "Which of the following is NOT a programming paradigm?",
+        "answers": { "A": "Object-Oriented Programming", "B": "Functional Programming", "C": "Sequential Programming", "D": "Procedural Programming" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does SQL stand for?",
+        "answers": { "A": "Sequential Query Language", "B": "Structured Query Language", "C": "Simple Query Language", "D": "Standard Query Language" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which company developed the Python programming language?",
+        "answers": { "A": "Microsoft", "B": "Google", "C": "Apple", "D": "Python Software Foundation" },
+        "correctAnswer": "D"
+    },
+    {
+        "question": "What is the purpose of a DNS server?",
+        "answers": { "A": "To store website content", "B": "To translate domain names into IP addresses", "C": "To encrypt data transmission", "D": "To manage user authentication" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the function of an optical mouse?",
+        "answers": { "A": "To scan printed documents", "B": "To capture images", "C": "To track movement on a surface", "D": "To project laser beams" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "Which data structure uses LIFO (Last In, First Out) principle?",
+        "answers": { "A": "Queue", "B": "Stack", "C": "Tree", "D": "Heap" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "What is the purpose of a compiler?",
+        "answers": { "A": "To execute program instructions", "B": "To convert source code into machine code", "C": "To manage memory allocation", "D": "To perform mathematical calculations" },
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Which protocol is used for secure communication over the internet?",
+        "answers": { "A": "FTP", "B": "HTTP", "C": "SSH", "D": "SMTP" },
+        "correctAnswer": "C"
+    },
+    {
+        "question": "What does API stand for?",
+        "answers": { "A": "Application Programming Interface", "B": "Advanced Protocol Integration", "C": "Automated Program Interface", "D": "Adaptive Processing Interface" },
+        "correctAnswer": "A"
+    }
 ]

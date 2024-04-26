@@ -141,7 +141,8 @@ class FormHandler {
     constructor() {
         this.form = document.querySelector('form');
         this.nameInput = this.form.querySelector('input[name="name"]');
-        this.reviewInput = this.form.querySelector('input[name="review"]');
+        this.reviewInput = this.form.querySelector('textarea[name="review"]');
+        console.log('Review input:', this.reviewInput); // Debugging
         this.ipInput = document.createElement('input');
         this.ipInput.type = 'hidden';
         this.ipInput.name = 'ip';
@@ -151,18 +152,27 @@ class FormHandler {
     async getIpAddress() {
         try {
             const response = await fetch('https://api.ipify.org?format=json');
+            if (!response.ok) {
+                throw new Error('Failed to fetch IP address');
+            }
             const data = await response.json();
+            if (!data || !data.ip) {
+                throw new Error('Invalid IP address data');
+            }
             return data.ip;
-        }
-        catch(error) {
+        } catch(error) {
             console.error('Error fetching IP Address', error);
             return null;
         }
     }
 
     async showForm() {
-        this.ipInput.value = await this.getIpAddress();
-        this.form.style.display = 'block';
+        try {
+            this.ipInput.value = await this.getIpAddress();
+            this.form.style.display = 'block';
+        } catch(error) {
+            console.error('Error showing form:', error);
+        }
     }
     
     hideForm() {
@@ -172,14 +182,18 @@ class FormHandler {
     bindFormSubmit(callback) {
         this.form.addEventListener('submit', async (event) => {
             event.preventDefault();
-            const userData = {
-                name: this.nameInput.value,
-                review: this.reviewInput.value,
-                ip: this.ipInput.value
-            };
-            callback(userData);
+            try {
+                const userData = {
+                    name: this.nameInput.value,
+                    review: this.reviewInput.value,
+                    ip: this.ipInput.value
+                };
+                callback(userData);
+            } catch(error) {
+                console.error('Error submitting form:', error);
+            }
         });
-    }
+    }    
 
     submitData(data, score) {
         const formData = new FormData();
@@ -195,7 +209,12 @@ class FormHandler {
                 'Accept': 'application/json'
             }
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Failed to submit form');
+            }
+            return response.json();
+        })
         .then(data => {
             console.log('Form submission successful:', data);
             this.hideForm();
@@ -204,7 +223,6 @@ class FormHandler {
             console.error('Error submitting form:', error);
         });
     }
-
 }
 
 class App {
@@ -285,8 +303,13 @@ class App {
     }
 
     submitForm(data) {
-        this.formHandler.submitData(data, this.correctAnswers);
-    }
+        // Check if the formHandler or the reviewInput is null before proceeding
+        if (this.formHandler && this.formHandler.reviewInput) {
+            this.formHandler.submitData(data, this.correctAnswers);
+        } else {
+            console.error('FormHandler or reviewInput is null.');
+        }
+    }    
 }
 
 const quizApp = new App();
