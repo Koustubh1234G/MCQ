@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>MCQ</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>EVS Quiz</h1>
-    <h3>BSC I Year</h3>
+    <header>
+        <h1>Quiz App</h1>
+        <h3>जय श्री कृष्ण</h3>
+    </header>
     <div id="quiz"></div>
     <div id="result"></div>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/xjvnjdoy" method="POST">
+      <label>
+        Name:
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Your Review:
+        <textarea name="review"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button class="btn formBtn" type="submit">Send</button>
+    </form>
     <div id="buttons">
-        <button id="submit">Submit</button>
-        <button id="retry">Retry</button>
-        <button id="random">Randomize Questions</button>
+        <button class="btn" id="play">Play</button>
+        <button class="btn" id="submit">Submit</button>
+        <button class="btn" id="retry">Retry</button>
+        <button class="btn" id="random">Randomize Questions</button>
     </div>
-    <script src="script.js"></script>
-</body>
 
+    <script src="script.js"></script>
+
+</body>
 </html>
